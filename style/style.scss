@@ -49,7 +49,7 @@ nav {
         font-size: calc(3rem + 2vw) ;
         font-family: 'Hanken Grotesk', sans-serif;
         font-weight: 500;
-        line-height: 0.84521395em;
+        line-height:1;
     }
     .callToAction {
         margin-top: 160px;
@@ -58,20 +58,29 @@ nav {
         gap: 20px;
     }
     .btn {
+        overflow: hidden;
         border: 1px solid #edf0f2;
         background-color: transparent;
         color: #edf0f2;
         padding: 20px 80px;
         font-size: 15px;
         letter-spacing: 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 50px;
+        i {
+            font-size: 20px;
+        }
         a {
             color: #edf0f2 ;
-            text-decoration: underline;
+            text-decoration: underline;           
         }
     }
 }
 
-img {
+.image img {
     position: absolute;
     top: -20px;
     right: -30px;
@@ -84,16 +93,26 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        img {
+            padding: 0;
+            top: 0;
+            right: 0;
+            text-align: center;
+            position: relative !important;
+        }
     }
-    img {
-        padding: 0;
-        top: 0;
-        right: 0;
-        text-align: center;
-        position: relative !important;
-    }
+    
     .content h1 {
         width: 100%;
+    }
+}
+
+@media (max-width : 910px) {
+    .callToAction .btn {
+        display: block !important;
+        i {
+            margin-right: 20px;
+        }
     }
 }
 
