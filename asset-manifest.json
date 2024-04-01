@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/innercircletalent/static/css/main.52c66509.css",
-    "main.js": "/innercircletalent/static/js/main.62cdf4b9.js",
-    "static/media/HeroBackground.png": "/innercircletalent/static/media/HeroBackground.c27bbc52bd6f6de2dd37.png",
-    "static/media/contact.png": "/innercircletalent/static/media/contact.8ec06dddd24974e08a3b.png",
-    "static/media/footer image.png": "/innercircletalent/static/media/footer image.b2519e364791535e6b13.png",
-    "static/media/Rectangle 15480.png": "/innercircletalent/static/media/Rectangle 15480.258fec141d0bcb70a0f2.png",
-    "static/media/for candidates.png": "/innercircletalent/static/media/for candidates.a47be118a40e6113200d.png",
-    "static/media/Rectangle 36.png": "/innercircletalent/static/media/Rectangle 36.40d91b795ab90ec6be1b.png",
-    "static/media/condidateMobile.png": "/innercircletalent/static/media/condidateMobile.b88440bdcbf5d02768a2.png",
-    "static/media/Ahmed.png": "/innercircletalent/static/media/Ahmed.41a229539c21a0028e0d.png",
-    "static/media/elsa image.png": "/innercircletalent/static/media/elsa image.8ada9d5bbceb189e150e.png",
-    "index.html": "/innercircletalent/index.html",
-    "main.52c66509.css.map": "/innercircletalent/static/css/main.52c66509.css.map",
-    "main.62cdf4b9.js.map": "/innercircletalent/static/js/main.62cdf4b9.js.map"
+    "main.css": "/static/css/main.2ca715e4.css",
+    "main.js": "/static/js/main.ed564f0a.js",
+    "static/media/HeroBackground.png": "/static/media/HeroBackground.c27bbc52bd6f6de2dd37.png",
+    "static/media/contact.png": "/static/media/contact.8ec06dddd24974e08a3b.png",
+    "static/media/footer image.png": "/static/media/footer image.b2519e364791535e6b13.png",
+    "static/media/Rectangle 15480.png": "/static/media/Rectangle 15480.258fec141d0bcb70a0f2.png",
+    "static/media/for candidates.png": "/static/media/for candidates.a47be118a40e6113200d.png",
+    "static/media/Rectangle 36.png": "/static/media/Rectangle 36.40d91b795ab90ec6be1b.png",
+    "static/media/condidateMobile.png": "/static/media/condidateMobile.b88440bdcbf5d02768a2.png",
+    "static/media/Ahmed.png": "/static/media/Ahmed.41a229539c21a0028e0d.png",
+    "static/media/elsa image.png": "/static/media/elsa image.8ada9d5bbceb189e150e.png",
+    "index.html": "/index.html",
+    "main.2ca715e4.css.map": "/static/css/main.2ca715e4.css.map",
+    "main.ed564f0a.js.map": "/static/js/main.ed564f0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.52c66509.css",
-    "static/js/main.62cdf4b9.js"
+    "static/css/main.2ca715e4.css",
+    "static/js/main.ed564f0a.js"
   ]
 }
