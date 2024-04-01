@@ -11,7 +11,6 @@ root.render(
     <Routes>
         <Route index element={<App />} />
         <Route path="/contact" element={<Contact />} />
-       
     </Routes>
   </BrowserRouter>
 );
