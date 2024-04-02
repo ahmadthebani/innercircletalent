@@ -7,10 +7,12 @@ const FAQ = () => {
   const [isOpen, setIsOpen] = useState({});
 
   const toggleAnswer = (index) => {
+    let state = isOpen[index]
+    setIsOpen({})
     setIsOpen(prevState => ({
       ...prevState,
-      [index]: !prevState[index]
-    }));
+      [index]: !state
+    }))
   };
 
   return (
