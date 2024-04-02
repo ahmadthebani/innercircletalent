@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Logo from '../images/Group 163092.png';
 import MenuImg from '../images/Frame.png';
 import { motion, AnimatePresence } from 'framer-motion';
+import { HashLink } from 'react-router-hash-link';
 
 const AboutMenu = ({ openAboutMenu, setOpenAboutMenu }) => {
   return (
@@ -11,9 +12,9 @@ const AboutMenu = ({ openAboutMenu, setOpenAboutMenu }) => {
         animate={{ scale: 1, opacity: 1 }}
         className='absolute top-8 bg-[#0C0405] text-[#FAF9F9] rounded-2xl pb-6 pt-4 px-2 w-[200px] flex flex-col  text-xs shadow-xl capitalize'
       >
-        <a href="#ourStory"><li className={` font-normal text-sm sm:text-base leading-5 transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}>Our Story</li></a>
-        <a href="#ourTeam"><li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}>Team</li></a>
-        <a href="#faqs"><li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out pb-2 pt-3 sm:pt-4 px-3`}>FAQs</li></a>
+        <HashLink to="#ourStory"><li className={` font-normal text-sm sm:text-base leading-5 transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}>Our Story</li></HashLink>
+        <HashLink to="#ourTeam"><li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out border-b border-solid border-[#565656] py-3 sm:py-4 px-3`}>Team</li></HashLink>
+        <HashLink to="#faqs"><li className={`font-normal text-sm sm:text-base leading-5  transition-all duration-300 ease-in-out pb-2 pt-3 sm:pt-4 px-3`}>FAQs</li></HashLink>
       </motion.ul>
     )
   );
@@ -67,8 +68,8 @@ const Navbar = () => {
             About <i className="fa-solid fa-chevron-down ml-2"></i>
             <AboutMenu openAboutMenu={openAboutMenu} setOpenAboutMenu={setOpenAboutMenu} />
           </li>
-          <li className='uppercase font-gothic-a1'><a href="#forCompanies">FOR COMPANIES</a></li>
-          <li className='uppercase font-gothic-a1'><a href="#forCondidates">FOR CANDIDATES</a></li>
+          <li className='uppercase font-gothic-a1'><HashLink to="#forCompanies">FOR COMPANIES</HashLink></li>
+          <li className='uppercase font-gothic-a1'><HashLink to="#forCondidates">FOR CANDIDATES</HashLink></li>
           <li className='uppercase font-gothic-a1'><a href="">BLOG</a></li>
         </ul>
 
@@ -86,8 +87,8 @@ const Navbar = () => {
                   About <i className="fa-solid fa-chevron-down ml-2"></i>
                   <AboutMenu openAboutMenu={openAboutMenu} setOpenAboutMenu={setOpenAboutMenu} />
                 </li>
-                <li className='uppercase font-gothic-a1 text-xs sm:text-base ' onClick={() => setIsOpen(false)} ><a href="#forCompanies">FOR COMPANIES</a></li>
-                <li className='uppercase font-gothic-a1 text-xs sm:text-base ' onClick={() => setIsOpen(false)} ><a href="#forCondidates">FOR CANDIDATES</a></li>
+                <li className='uppercase font-gothic-a1 text-xs sm:text-base ' onClick={() => setIsOpen(false)} ><HashLink to="#forCompanies">FOR COMPANIES</HashLink></li>
+                <li className='uppercase font-gothic-a1 text-xs sm:text-base ' onClick={() => setIsOpen(false)} ><HashLink to="#forCondidates">FOR CANDIDATES</HashLink></li>
                 <li className='uppercase font-gothic-a1 text-xs sm:text-base ' ><a href="">BLOG</a></li>
               </ul>
             </motion.div>
