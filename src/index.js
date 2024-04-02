@@ -10,8 +10,8 @@ root.render(
   <BrowserRouter>
     <Routes>
         <Route index element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="/contact" element={<Contact />} />
-       
     </Routes>
   </BrowserRouter>
 );
