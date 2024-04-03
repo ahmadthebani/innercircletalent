@@ -16,3 +16,12 @@ body {
 .form-container div:first-child {
     min-height: 100vh !important;
  } 
+
+
+ .hubspot-form {
+    position: relative !important;
+    width: 100%;
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Centers the form horizontally */
+    /* Add any other styles you want */
+  }
