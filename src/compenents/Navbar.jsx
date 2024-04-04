@@ -70,7 +70,7 @@ const Navbar = () => {
           </li>
           <li className='uppercase font-gothic-a1'><HashLink to="#forCompanies">FOR COMPANIES</HashLink></li>
           <li className='uppercase font-gothic-a1'><HashLink to="#forCondidates">FOR CANDIDATES</HashLink></li>
-          <li className='uppercase font-gothic-a1'><a href="">BLOG</a></li>
+          {/* <li className='uppercase font-gothic-a1'><a href="">BLOG</a></li> */}
         </ul>
 
         <AnimatePresence>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 </li>
                 <li className='uppercase font-gothic-a1 text-xs sm:text-base ' onClick={() => setIsOpen(false)} ><HashLink to="#forCompanies">FOR COMPANIES</HashLink></li>
                 <li className='uppercase font-gothic-a1 text-xs sm:text-base ' onClick={() => setIsOpen(false)} ><HashLink to="#forCondidates">FOR CANDIDATES</HashLink></li>
-                <li className='uppercase font-gothic-a1 text-xs sm:text-base ' ><a href="">BLOG</a></li>
+                {/* <li className='uppercase font-gothic-a1 text-xs sm:text-base ' ><a href="">BLOG</a></li> */}
               </ul>
             </motion.div>
           )}
