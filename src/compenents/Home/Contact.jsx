@@ -6,17 +6,17 @@ import HubspotForm from 'react-hubspot-form'
 
 
 const Contact = () => {
-    const readyFrom = (fr) => {
-        const inputFields = Array.from(fr.elements).filter(element => 
-            element.tagName === 'INPUT' || element.tagName === 'TEXTAREA'
-        )
+    // const readyFrom = (fr) => {
+    //     const inputFields = Array.from(fr.elements).filter(element => 
+    //         element.tagName === 'INPUT' || element.tagName === 'TEXTAREA'
+    //     )
 
-        inputFields.forEach((input , index) => {
-            if(index <= 4){
-                input.value = ''
-            }
-        })
-    }
+    //     inputFields.forEach((input , index) => {
+    //         if(index <= 4){
+    //             input.value = ''
+    //         }
+    //     })
+    // }
     
   return (
     <div className='w-screen relative'>
@@ -57,8 +57,7 @@ const Contact = () => {
                      region= 'na1'
                      portalId = '45596133'
                      formId = 'e3cb84c4-8417-478e-a833-7d4069e28de0'
-                    //  onFormSubmitted={(form) => handleSubmit(form)}
-                     onFormReady={(form) => readyFrom(form)}
+                  
                         loading={<div>Loading...</div>}
                     />
               
