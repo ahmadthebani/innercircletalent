@@ -10,11 +10,11 @@ const Story = () => {
         <h1 className='font-gothic-a1 font-semibold text-2xl sm:text-3xl md:text-5xl xl:text-[52px] text-[#0C0405] leading-[30px] sm:leading-[40px] md:leading-[50px] xl:leading-[65px] text-center'>Our Story</h1>
         <p className='mt-3 sm:mt-6 md:mt-9 max-w-[820px] m-auto font-normal leading-[15px] sm:leading-[18px] md:leading-[24px] text-xs sm:text-sm md:text-base xl:text-lg text-center text-[#0C0405]'>Our team has worked at early stage startups for collective decades and we get it. The pain of figuring out every domain, of being unable to delegate and getting drowned in minutia, and the numerous distractions from just building the damn thing. Our foundation is built on three core beliefs :</p>
         <div className='mt-8 flex justify-center items-start w-full gap-10 sm:gap-20 flex-wrap'>
-          {/* <div className='max-w-[280px] flex justify-center items-center flex-col'>
+          <div className='max-w-[280px] flex justify-center items-center flex-col'>
             <img src={Diversity} alt="Diversity" className='w-[35px] h-[35px] sm:w-[83px] sm:h-[83px]' />
-            <h3 className='my-2 sm:my-8 font-gothic-a1 font-bold text-base sm:text-[28px] leading-4 md:leading-5 lg:leading-7 xl:leading-9 text-center'>Diversity</h3>
-            <p className='text-center font-semibold text-[10px] sm:text-base leading-3 sm:leading-5'>That diversity isn't just valuable; it's essential for innovation and resilience in an increasingly digital and interconnected world.</p>
-          </div> */}
+            <h3 className='my-2 sm:my-8 font-gothic-a1 font-bold text-base sm:text-[28px] leading-4 md:leading-5 lg:leading-7 xl:leading-9 text-center'>Speed</h3>
+            <p className='text-center font-semibold text-[10px] sm:text-base leading-3 sm:leading-5'>The first idea is never the final one, and the quicker you get in front of potential customers, the quicker you can iterate your way to something that clicks. Your early stage advantage against incumbents is speed, but in the earliest days it’s hard to balance moving quickly against the slowness of learning new functions and doing everything yourself.</p>
+          </div>
           <div className='max-w-[280px] flex justify-center items-center flex-col'>
             <img src={Remote} alt="Remote" className='w-[35px] h-[35px] sm:w-[83px] sm:h-[83px]' />
             <h3 className='my-2 sm:my-8 font-gothic-a1 font-bold text-base sm:text-[28px] leading-4 md:leading-5 lg:leading-7 xl:leading-9 text-center'>Remote</h3>
